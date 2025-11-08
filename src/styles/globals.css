@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Indie+Flower&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg: #F5F1EE; /* soft beige */
+  --muted: #6B6B6B;
+}
+
+html,body,#__next{
+  height:100%;
+}
+
+body{
+  background:var(--bg);
+  color:#1f2937;
+  /* Default to handwritten style for most text */
+  font-family: 'Indie Flower', 'Caveat', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+.container{
+  width:100%;
+  margin:0 auto;
+  padding:1rem;
+  max-width:100%;
+}
+
+@screen sm {
+  .container {
+    padding:1.5rem;
+  }
+}
+
+@screen md {
+  .container {
+    max-width:768px;
+    padding:2rem;
+  }
+}
+
+@screen lg {
+  .container {
+    max-width:1024px;
+  }
+}
+
+@screen xl {
+  .container {
+    max-width:1100px;
+  }
+}
+
+.card{
+  background:white;
+  border-radius:12px;
+  padding:1rem;
+  box-shadow:0 6px 18px rgba(16,24,40,0.06);
+}
+
+@screen sm {
+  .card {
+    padding:1.5rem;
+  }
+}
+
+/* Titles use the Caveat handwritten font for a natural, soft feel. */
+h1,h2,h3,h4,h5,h6, .text-title {
+  font-family: 'Caveat', 'Hanken Grotesk', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  letter-spacing: -.01em;
+}
+
+/* Optionally, use Hanken Grotesk for body headings where a sans look is preferred */
+.heading-sans {
+  font-family: 'Hanken Grotesk', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+/* Handwritten style for small highlighted pieces of text */
+.handwritten, .lead-hand {
+  font-family: 'Indie Flower', 'Caveat', 'Hanken Grotesk', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+/* Keep form inputs in system font for better UX */
+input, textarea, select {
+  font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+/* Make buttons interactive */
+button {
+  cursor: pointer;
+}
+
+/* Titles use Caveat for the natural, organic feel */
+h1, h2, h3, h4, h5, h6, .font-title {
+  font-family: 'Caveat', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+/* Force system font where needed */
+.font-sans {
+  font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial !important;
+}

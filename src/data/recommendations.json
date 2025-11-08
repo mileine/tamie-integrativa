@@ -1,0 +1,13 @@
+{
+  "livros": [
+    { "title": "A Arte de Viver", "author": "Autor Exemplo" },
+    { "title": "Mindfulness: O Guia", "author": "Outro Autor" }
+  ],
+  "terapias": [
+    { "title": "Reiki" },
+    { "title": "Terapia Somática" }
+  ],
+  "videos": [
+    { "title": "Respiração Consciente", "link": "https://www.youtube.com/" }
+  ]
+}

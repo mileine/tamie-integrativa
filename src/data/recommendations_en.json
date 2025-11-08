@@ -1,0 +1,13 @@
+{
+  "books": [
+    { "title": "The Art of Living", "author": "Example Author" },
+    { "title": "Mindfulness: A Guide", "author": "Another Author" }
+  ],
+  "therapies": [
+    { "title": "Reiki" },
+    { "title": "Somatic Therapy" }
+  ],
+  "videos": [
+    { "title": "Mindful Breathing", "link": "https://www.youtube.com/" }
+  ]
+}
