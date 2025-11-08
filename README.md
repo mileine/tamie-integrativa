@@ -4,6 +4,8 @@ Minimal Next.js 14 + TypeScript + Tailwind CSS bilingual blog scaffold (Portugue
 
 This repository is a small blog about self-awareness and integrative therapies. It uses Next.js App Router, Markdown posts, and Tailwind for styling. The app is mobile-first and includes small UI components like a YouTube embed, a timeline, and a recommendations page.
 
+Just having some fun with CoPilot... 🤖💖
+
 ## Features
 
 - Next.js 14 (App Router)
